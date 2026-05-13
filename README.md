@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TELE NANDINI — Full-stack portfolio
 
 React (Vite) + Tailwind + Framer Motion frontend, FastAPI backend. Content is served from the API (`backend/data/portfolio.json`); the contact form POSTs to the backend.
@@ -129,3 +130,7 @@ frontend/
 ```
 
 If you previously used the old single-folder Vite app at the repository root, remove its `node_modules` and use `frontend/` only.
+=======
+# portfolio
+I’m a passionate B.Tech CSE student interested in software development, AI, and web technologies. I enjoy building real-world projects like intelligent systems, full-stack apps, and data-driven solutions. Through internships, certifications, and hands-on coding, I continuously improve my skills and explore innovative technologies.
+>>>>>>> 569a94b0fa4a30803d2cfff3f9e850ee11d3eef6

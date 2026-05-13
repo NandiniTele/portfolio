@@ -1,0 +1,241 @@
+{
+  "hero": {
+    "name": "TELE NANDINI",
+    "role": "B.Tech Computer Science Engineering Student",
+    "tagline": "Aspiring Software Engineer | Python Developer | Full Stack Learner",
+    "initials": "TN",
+    "profile_image": "/profile-photo.png",
+    "profile_alt": "TELE NANDINI — professional portrait",
+    "profile_hint": ""
+  },
+  "about": {
+    "summary": "Motivated Computer Science undergraduate with a strong interest in software development, Python programming, and full stack web technologies. Hands-on experience through academic projects and hackathons, with a focus on building practical solutions using problem-solving skills. Actively seeking entry-level or internship opportunities to grow as a software engineer."
+  },
+  "education": [
+    {
+      "title": "B.Tech",
+      "place": "NRI College, Agiripalli, Andhra Pradesh",
+      "tag": "Undergraduate"
+    },
+    {
+      "title": "Intermediate",
+      "place": "Vikas Junior College, Visannapete",
+      "tag": "Pre-university"
+    },
+    {
+      "title": "Secondary School",
+      "place": "Vikas Public School, Chatrai",
+      "tag": "Schooling"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Programming",
+      "items": ["Python", "JavaScript"],
+      "accent": "from-sky-500/20 to-transparent"
+    },
+    {
+      "title": "Web",
+      "items": ["HTML", "CSS"],
+      "accent": "from-violet-500/20 to-transparent"
+    },
+    {
+      "title": "Tools & platforms",
+      "items": ["Git", "GitHub", "VS Code", "OpenCV", "Kaggle", "Cisco Networking Academy", "IBM SkillsBuild"],
+      "accent": "from-cyan-500/15 to-transparent"
+    },
+    {
+      "title": "Core Concepts",
+      "items": [
+        "Full Stack Development Basics",
+        "Computer Vision Basics",
+        "Cybersecurity fundamentals",
+        "Generative AI",
+        "Problem Solving"
+      ],
+      "accent": "from-fuchsia-500/15 to-transparent"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Driver Drowsiness Detection System",
+      "description": "Developed a computer vision-based system using Python and OpenCV to detect drowsiness through eye blink patterns.",
+      "tags": ["Python", "OpenCV", "Computer Vision"],
+      "icon": "eye"
+    },
+    {
+      "title": "Full Stack Web Application",
+      "description": "Designed responsive web application using HTML, CSS, JavaScript during hackathon.",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "icon": "code"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Collector",
+      "issuer": "Kaggle",
+      "date": "",
+      "url": "",
+      "description": "Kaggle badge earned for contributions and engagement on the platform."
+    },
+    {
+      "title": "Artificial Intelligence Fundamentals",
+      "issuer": "IBM SkillsBuild",
+      "date": "Oct 17, 2025",
+      "url": "https://www.credly.com/badges/40404be5-ddd0-4e3e-86a8-746831594a79",
+      "description": "Foundational AI concepts and applications (Credly-verified digital credential)."
+    },
+    {
+      "title": "Cybersecurity Fundamentals",
+      "issuer": "IBM SkillsBuild",
+      "date": "Mar 11, 2025",
+      "url": "https://www.credly.com/badges/b0e590e7-3581-44a8-9ed1-890b198fed3a",
+      "description": "Core cybersecurity concepts and professional credential via Credly."
+    },
+    {
+      "title": "200-201: Understanding Cisco Cybersecurity Operations Fundamentals (CBROPS)",
+      "issuer": "Infosys Springboard",
+      "date": "Aug 26, 2025",
+      "url": "",
+      "description": "Certificate of completion for Cisco CBROPS cybersecurity operations fundamentals."
+    },
+    {
+      "title": "Junior Cybersecurity Analyst Career Path",
+      "issuer": "Cisco Networking Academy",
+      "date": "Aug 20, 2023",
+      "url": "",
+      "description": "Student-level credential: security controls, threat mitigation, vulnerability & risk assessment, incident response readiness, and network security fundamentals."
+    },
+    {
+      "title": "Generative AI and Its Impact to Everyday Business",
+      "issuer": "Skillsoft",
+      "date": "Aug 18, 2025",
+      "url": "",
+      "description": "Information Technology course completed via self-study (0.5 CPE credits, NASBA-registered sponsor)."
+    },
+    {
+      "title": "OpenCV Bootcamp — Certificate of Excellence",
+      "issuer": "OpenCV University",
+      "date": "",
+      "url": "",
+      "description": "Outstanding performance in the OpenCV Bootcamp with grade 96%."
+    },
+    {
+      "title": "AI for Beginners",
+      "issuer": "HP LIFE | HP Foundation",
+      "date": "Jul 3, 2025",
+      "url": "",
+      "description": "AI impact on technology, key concepts, data in AI, business use cases, and ethics."
+    },
+    {
+      "title": "Python (Basic)",
+      "issuer": "HackerRank",
+      "date": "Mar 6, 2025",
+      "url": "",
+      "description": "Skill certification test passed (Certificate ID: D7C56BCB7E66)."
+    },
+    {
+      "title": "Cyber Security",
+      "issuer": "NPTEL",
+      "date": "",
+      "url": "",
+      "description": "NPTEL certification in Cyber Security fundamentals."
+    },
+    {
+      "title": "Full Stack Hackathons",
+      "issuer": "Various events",
+      "date": "",
+      "url": "",
+      "description": "Participation in full stack hackathons — collaborative build sprints."
+    }
+  ],
+  "internships": [
+    {
+      "title": "AI on Microsoft Azure",
+      "organization": "Microsoft · Edunet Foundation · AICTE",
+      "period": "May 13, 2025 – Jun 13, 2025 (4 weeks)",
+      "description": "Four-week internship on AI Azure (Microsoft initiative; Edunet Foundation implementation partner; in collaboration with AICTE). Institute: NRI Institute of Technology.",
+      "skills": ["Microsoft Azure", "Artificial Intelligence", "Cloud"]
+    },
+    {
+      "title": "Cyber Security — Virtual internship",
+      "organization": "Edunet Foundation · AICTE · IBM SkillsBuild",
+      "period": "Jan 15, 2025 – Feb 26, 2025 (6 weeks)",
+      "description": "Six-week virtual internship in Cyber Security with Edunet Foundation, AICTE, and IBM SkillsBuild collaboration.",
+      "skills": ["Cyber Security", "IBM SkillsBuild", "Networking"]
+    },
+    {
+      "title": "Artificial Intelligence — Virtual internship",
+      "organization": "CodSoft",
+      "period": "Jun 25, 2025 – Jul 25, 2025 (4 weeks)",
+      "description": "Completed 4-week virtual internship in Artificial Intelligence with strong performance on tasks and projects (Certificate ID: f1d5088).",
+      "skills": ["Python", "Artificial Intelligence"]
+    },
+    {
+      "title": "Data Science — Internship",
+      "organization": "SystemTron",
+      "period": "Jun 23, 2025 – Jul 20, 2025 (4 weeks)",
+      "description": "Four-week internship in Data Science. Certificate ID: ST/INP/9342. Recognized with AICTE and MSME affiliations on credential.",
+      "skills": ["Data Science", "Python", "Analytics"]
+    },
+    {
+      "title": "Generative AI — Internship",
+      "organization": "SystemTron",
+      "period": "Jun 23, 2025 – Jul 20, 2025 (4 weeks)",
+      "description": "Four-week Generative AI internship. Certificate ID: ST/INP/9349. Partner recognition: AICTE, MSME.",
+      "skills": ["Generative AI", "LLMs", "Python"]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "HYPERWEB-HACK — Consolation prize",
+      "detail": "Certificate of Appreciation from NRI Institute of Technology (Autonomous), CSE — SPICES club hackathon, Sep 6, 2025."
+    },
+    {
+      "title": "Infosys Springboard — Pragati: Path to Future",
+      "detail": "Cohort 6 participant (Jul 2025 – Oct 2025) — women-in-tech career readiness program."
+    }
+  ],
+  "contact": {
+    "phone": "9398887678",
+    "phone_e164": "+919398887678",
+    "email": "nandinitele44@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/nandini-tele-1028b931b",
+    "linkedin_label": "linkedin.com/in/nandini-tele-1028b931b",
+    "github": ""
+  },
+  "resume_lines": [
+    "TELE NANDINI",
+    "B.Tech Computer Science Engineering Student",
+    "",
+    "Contact",
+    "Phone: 9398887678",
+    "Email: nandinitele44@gmail.com",
+    "LinkedIn: https://www.linkedin.com/in/nandini-tele-1028b931b",
+    "",
+    "Professional Summary",
+    "Motivated Computer Science undergraduate with a strong interest in software development, Python programming, and full stack web technologies. Hands-on experience through academic projects and hackathons, with a focus on building practical solutions using problem-solving skills. Actively seeking entry-level or internship opportunities to grow as a software engineer.",
+    "",
+    "Internships (selected)",
+    "Microsoft AI Azure (Edunet/AICTE) — May–Jun 2025",
+    "Cyber Security virtual internship (Edunet/AICTE/IBM) — Jan–Feb 2025",
+    "CodSoft AI virtual internship — Jun–Jul 2025",
+    "SystemTron — Data Science & Generative AI — Jun–Jul 2025",
+    "",
+    "Certifications (selected)",
+    "IBM: AI Fundamentals; Cybersecurity Fundamentals (Credly)",
+    "Cisco Networking Academy: Junior Cybersecurity Analyst path",
+    "Infosys Springboard: Cisco CBROPS (200-201)",
+    "Skillsoft: Generative AI & business impact | OpenCV Bootcamp (96%)",
+    "HP LIFE: AI for Beginners | HackerRank: Python (Basic) | Kaggle: Collector | NPTEL: Cyber Security",
+    "",
+    "Achievements",
+    "HYPERWEB-HACK — Consolation (NRI IT / SPICES, Sep 2025)",
+    "Infosys Springboard Pragati — Cohort 6 (Jul–Oct 2025)"
+  ],
+  "meta": {
+    "site_title": "TELE NANDINI | Portfolio",
+    "footer_tagline": "B.Tech CSE student building thoughtful software. Full-stack portfolio powered by React, FastAPI, Tailwind, and Framer Motion.",
+    "linkedin_profile_hint": "Profile data is edited in backend/data/portfolio.json. For LinkedIn-style auto-fill, paste content from your profile or use an AI prompt with your LinkedIn URL, then merge the JSON here."
+  }
+}

@@ -1,0 +1,5 @@
+fastapi>=0.100.0,<0.104
+uvicorn[standard]>=0.22.0,<0.30
+pydantic>=2.4.0,<3
+email-validator>=2.0.0
+python-multipart>=0.0.6

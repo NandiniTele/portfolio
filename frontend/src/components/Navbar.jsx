@@ -31,7 +31,7 @@ function useHash() {
   return hash || '#home'
 }
 
-export function Navbar({ brand = 'TN' }) {
+export function Navbar({ brand = 'RC' }) {
   const [open, setOpen] = useState(false)
   const hash = useHash()
 

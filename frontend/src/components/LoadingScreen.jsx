@@ -20,7 +20,7 @@ export function LoadingScreen() {
           />
           <div className="absolute inset-0 flex items-center justify-center">
             <span className="font-display text-2xl font-bold tracking-tight text-white sm:text-3xl">
-              TN
+              RC
             </span>
           </div>
         </div>

@@ -4,6 +4,8 @@ import { SectionReveal } from './SectionReveal'
 import { SocialIcons } from './SocialIcons'
 import { postContactMessage } from '../lib/api'
 
+const IS_STATIC = import.meta.env.PROD && !import.meta.env.VITE_API_URL
+
 export function Contact({ contact }) {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
   const [status, setStatus] = useState(null)
@@ -23,6 +25,17 @@ export function Contact({ contact }) {
     e.preventDefault()
     setError(null)
     setStatus(null)
+
+    // In static/production mode: open a pre-filled mailto: link
+    if (IS_STATIC) {
+      const subject = encodeURIComponent(`Message from ${form.name}`)
+      const body = encodeURIComponent(
+        `Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`,
+      )
+      window.location.href = `mailto:${email}?subject=${subject}&body=${body}`
+      return
+    }
+
     setSending(true)
     try {
       const res = await postContactMessage(form)
@@ -190,12 +203,17 @@ export function Contact({ contact }) {
                   {error}
                 </p>
               )}
+              {IS_STATIC && (
+                <p className="mt-4 text-xs text-slate-500">
+                  Clicking Submit will open your email client with a pre-filled message.
+                </p>
+              )}
               <button
                 type="submit"
                 disabled={sending}
                 className="mt-6 w-full rounded-xl bg-gradient-to-r from-sky-500 to-violet-600 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 transition hover:brightness-110 disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto sm:px-10"
               >
-                {sending ? 'Sending…' : 'Submit'}
+                {sending ? 'Sending…' : IS_STATIC ? 'Open Email App' : 'Submit'}
               </button>
             </form>
           </SectionReveal>

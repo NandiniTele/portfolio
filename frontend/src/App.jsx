@@ -1,8 +1,10 @@
 import { useCallback, useEffect, useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { fetchPortfolio } from './lib/api'
 import { LoadingScreen } from './components/LoadingScreen'
 import { HomePage } from './pages/HomePage'
+import { BrainAIDashboard } from './pages/BrainAIDashboard'
 
 function ErrorPanel({ message, onRetry }) {
   return (
@@ -35,7 +37,7 @@ uvicorn main:app --reload --host 127.0.0.1 --port 8001`}
   )
 }
 
-export default function App() {
+function PortfolioPage() {
   const [phase, setPhase] = useState('loading')
   const [data, setData] = useState(null)
   const [error, setError] = useState('')
@@ -71,5 +73,14 @@ export default function App() {
       {phase === 'ready' && data ? <HomePage data={data} /> : null}
       {phase === 'error' ? <ErrorPanel message={error} onRetry={load} /> : null}
     </>
+  )
+}
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<PortfolioPage />} />
+      <Route path="/brain-ai" element={<BrainAIDashboard />} />
+    </Routes>
   )
 }

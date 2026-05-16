@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# TELE NANDINI — Full-stack portfolio
+# RAMA VENKATA CHARAN — Full-stack portfolio
 
 React (Vite) + Tailwind + Framer Motion frontend, FastAPI backend. Content is served from the API (`backend/data/portfolio.json`); the contact form POSTs to the backend.
 
